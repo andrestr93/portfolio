@@ -1,0 +1,171 @@
+* {
+    text-align: center;
+    margin: 0px auto;
+    /* todo antilased sirve para suavizar la fuente*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    padding: 0px;
+    color: white;
+  }
+  
+  body {
+    /*
+      background: rgb(60,73,73);
+  background: linear-gradient(0deg, rgba(60,73,73,1) 0%, rgba(9,9,8,1) 100%);
+  
+  */
+  
+    background: rgb(34, 43, 89);
+    background: linear-gradient(
+      90deg,
+      rgba(34, 43, 89, 1) 0%,
+      rgba(23, 33, 102, 1) 92%
+    );
+  }
+  
+  #content {
+    margin-top: 25px;
+  
+  }
+  
+  #content h3 {
+    font-size: 25px;
+  }
+  
+  .images-tecnology {
+    width: 450px;
+    margin-top: 25px;
+    color: white;
+  }
+  
+  .images-tecnology img {
+    margin-top: 25px;
+    width: 80px;
+    animation: bombear infinite 5s linear;
+    padding-right: 10px;
+  }
+  
+  @keyframes bombear {
+    0% {
+      transform: scale(1, 1);
+    }
+  
+    50% {
+      transform: scale(1.05, 1.05);
+    }
+  
+    55% {
+      transform: scale(0.95, 0.95);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+  #image-laboral {
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .container {
+    box-shadow: 0px 2px 3px none;
+    background-color: #565d5d;
+    color: white;
+    height: 500px;
+    width: 70%;
+    min-height: 450px;
+  }
+  
+  .container:hover {
+    background-color: black;
+    animation: bombear infinite 4s linear;
+  
+  
+  }
+  
+  .container-principal{
+  
+    float: left !important;
+    text-align: center;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  #other-tecnology {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .article-item {
+    max-width: 800px;
+    height: 100%;
+    margin: 25px;
+    float: left;
+  
+  }
+  
+  .article-item p {
+    padding: 25px;
+  }
+  
+  .article-item h2{
+  
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .wrap-image{
+    width: 100%;
+  
+  }
+  
+  .wrap-image img {
+    width: 800px;
+  
+  }
+  
+  
+  .container-desarrollo img{
+  
+  
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 60px;
+    animation: bombear infinite 5s linear;
+    padding-right: 10px;
+  }
+  
+  p{
+  
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:30px;
+    color: white;
+    
+  
+  }
+  
+  span{
+  
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+   
+  }
+  
+  .container-description{
+  
+  background-color: #CAC6BF;
+  padding: 25px;
+  border: 1px solid black;
+  
+  }
+  
